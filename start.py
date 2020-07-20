@@ -37,5 +37,5 @@
 #   * Skalierbar: Python bietet eine bessere Struktur und Unterstützung für große Programme als Shell-Skripting.
 
 
-print("Hello World...");
+# print("Hello World...");
 print('Hello Python...');
