@@ -1,7 +1,9 @@
 import time
 
 ticks = time.time()
-print("Number of ticks since 12:00am, January 1, 1970:", ticks)
+print("%f" % ticks)
+print(time.localtime(ticks))
+print(time.asctime(time.localtime(ticks)))
 
 
 # What is TimeTuple: Many of Python's time functions handle time as a tuple of 9 numbers:
